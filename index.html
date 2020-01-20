@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="highscores.html">View Highscores</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">Time: <span id="seconds-remaining">0</span></li>              
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="offset-lg-3"></div>
+      <div class="col-12 col-lg-6 main-content">
+        <div class="quiz-intro">
+          <img class="header-img" src="assets/images/question-circle-solid.svg" alt="quiz intro header image">
+          <h1>Code Quiz</h1>
+          <h6>Hello, coder! This is a short and basic multiple-choice quiz designed to test you're on knowledge about JavaScript. Answering quickly and correctly results in a higher score, while answersing incorrectly results in a time penalty. Good luck to you!</h6>
+          <div class="button-container">
+            <button id="start-quiz">Start Quiz</button>
+          </div>
+        </div>
+      </div>
+      <div class="offset-lg-3"></div>
+    </div>  
+  </div>
+
+  <script src="assets/javascript/questions.js"></script>
+  <script src="assets/javascript/scores.js"></script>
+  <script src="assets/javascript/script.js"></script>
+</body>
+</html>
